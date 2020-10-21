@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IAI_2020</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href=”index.html>HOME</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Quiz</a></li>
+        <li><a href=”contact.html”>Kontakt</a></li>
+    </ul>
+</nav>
+<form>
+    <div class="form-group">
+        <legend>Uzupełnij dane:</legend>
+        <label for="imie">Imię:</label><br/>
+        <input type="text" name="imie" id="imie" placeholder="Podaj imię"><br/>
+        <label for="nazwisko">Nazwisko:</label><br/>
+        <input type="text" name="nazwisko" id="nazwisko" placeholder="Podaj nazwisko"><br/>
+        <label for="email">E-mail:</label><br/>
+        <input type="email" name="email" id="email" placeholder="Podaj e-mail"><br/>
+
+        <label for="plec">Płeć:</label><br/>
+        <input type="radio" name="kobieta" value="kobieta" id="plec"> Kobieta
+        <input type="radio" name="mezczyzna" value="mezczyzna" id="plec"> Mężczyzna<br/>
+
+        <label for="opis">Opis:</label><br/>
+        <textarea rows="4" cols="50" id="opis" placeholder="Przykładowy tekst"></textarea><br/>
+
+        <label for="wiek">Wiek:</label><br/>
+        <input type="number" name="wiek" value="18" id="wiek"><br/>
+
+        <label for="stan">Stan cywilny:</label><br/>
+        <select>
+            <option value="1" id="stan">Kawaler/Panna</option>
+            <option value="2" id="stan">Żonaty/Zamężna</option>
+            <option value="3" id="stan">Wdowiec/Wdowa</option>
+            <option value="4" id="stan">Rozwiedziony/Rozwiedziona</option>
+            <option value="5" id="stan">Separowany/Separowana</option>
+        </select>
+    </div>
+</form>
+</body>
+</html>

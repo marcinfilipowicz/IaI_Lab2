@@ -5,3 +5,4 @@ footer p{text-align: center;}
 img {width: 200px; height: 200px;}
 a:hover{transition: all 1s; background-color: navy; color: white; padding: 10px;}
 a{transition: all 1s;}
+iframe{width: 100%;}
